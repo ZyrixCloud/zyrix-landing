@@ -1,0 +1,4 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{--bg:#0b1220;--fg:#ffffff}body{background:var(--bg);color:var(--fg)}.container{@apply max-w-6xl mx-auto px-4}.btn{@apply inline-flex items-center justify-center rounded-2xl px-5 py-3 font-medium shadow-sm transition}.btn-primary{@apply bg-brand-600 hover:bg-brand-700 text-white}.card{@apply rounded-2xl bg-white/5 backdrop-blur border border-white/10 p-6 shadow}.section-title{@apply text-3xl md:text-4xl font-semibold tracking-tight}.section-subtitle{@apply text-white/70}
